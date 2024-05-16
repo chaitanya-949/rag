@@ -5,11 +5,11 @@ This project utilizes techniques from retrieval-augmented generation (RAG) to ex
 ## Description
 
 The project includes the following key features:
-
+## Data preparation
 1. **PDF Text Extraction**: Extracts text from a PDF document, segmenting it into paragraphs for further analysis.
-
+## retrival mechanism
 2. **Contextual Similarity Search**: Searches for relevant passages in the PDF document based on contextual similarity to a given query using sentence embeddings.
-
+## generation component
 3. **Text Generation**: Utilizes pre-trained GPT-2 models for text generation, incorporating retrieved passages and user prompts.
 
 ## Install the required Python libraries:
