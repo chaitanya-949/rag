@@ -27,7 +27,6 @@ pip install PyPDF2 sentence-transformers transformers torch
 ## Example
 
 ```python
-# Example usage (assuming you have segmented text 'text')
 query = "In case UMB is being offered to the animal for licking, how much quantity of urea treated straw should be fed to animal?"
 relevant_passages = search_with_similarity(query, text)
 generated_response = generate_response(relevant_passages)
